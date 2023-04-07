@@ -27,7 +27,7 @@ function personasa(){
         if(respuesta.find(elements=>elements.usuario==usuario.value)){
             pocicion=respuesta.findIndex(elements=>elements.usuario==usuario.value)
             if(respuesta[pocicion].email==email.value){
-                location.href="indexx.html"
+                location.href="./indexx.html"
                 email.value=""
                 usuario.value=""
                 
@@ -48,7 +48,7 @@ function personasa(){
     })
     registrarse.addEventListener("click",(e)=>{
         e.preventDefault()
-        location.href="/exposicion/index.html"
+        location.href="https://breinerrangel.github.io/demo4/"
     })
    
 }
